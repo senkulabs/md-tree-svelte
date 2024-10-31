@@ -60,7 +60,7 @@ const initialValue = `Edit me to generate
     textarea.setSelectionRange(length, length);
   });
 
-  let options = $derived({
+  const options = $derived({
     charset: fancyMode ? 'utf-8' : 'ascii',
     trailingSlashDir: showTrailingSlashDir,
     fullPath: showFullPath,
