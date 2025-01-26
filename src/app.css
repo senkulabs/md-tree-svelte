@@ -48,6 +48,8 @@
     width: 480px;
     white-space: pre;
     font-family: monospace;
+    font-size: 0.875rem;
+    line-height: 2;
     background: lightgray;
     padding: 1rem;
     border-radius: .5rem;
