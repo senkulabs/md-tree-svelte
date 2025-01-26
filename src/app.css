@@ -46,6 +46,7 @@
   
   .tree {
     width: 480px;
+    max-height: 480px;
     white-space: pre;
     font-family: monospace;
     font-size: 0.875rem;
