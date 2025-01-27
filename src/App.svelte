@@ -143,7 +143,7 @@ const initialValue = `Edit me to generate
 
 <div class="container p-2 mx-auto">
   <h1 style="text-align: center;">Markdown Tree Generator</h1>
-  <p style="margin: .5rem;">Generate tree for markdown use case. The idea of this project comes from <a href="https://tree.nathanfriend.com" target="_blank">tree.nathanfriend.com</a> but with functional React component and no third party dependencies.</p>
+  <p style="margin: .5rem;">Generate tree for markdown use case. The idea of this project comes from <a href="https://tree.nathanfriend.com" target="_blank">tree.nathanfriend.com</a> but with Svelte 5.</p>
   <div class="editor">
     <textarea bind:this={textarea} style="width: 480px; height: 320px; tab-size: 2; font-size: 1rem;" bind:value={value} onkeydown={handleTabKey}></textarea>
     <div class="tree">
