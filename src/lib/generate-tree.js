@@ -75,7 +75,7 @@ const getName = (structure, options) => {
         nameChunks.unshift(
             getName(
                 structure.parent,
-                {...options, ...{ trailingSlashDir: true }}
+                {...{ trailingSlashDir: true }, ...options}
             ),
         );
     }
